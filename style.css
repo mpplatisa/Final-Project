@@ -1,0 +1,59 @@
+#Header {
+    text-align: center;
+    font-family: times new roman-serif;
+    background: rgb(255, 30, 0);
+    height: 100px;
+}
+
+#backdrop {
+    opacity: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 50rem;
+    background-image: url(https://s15543.pcdn.co/wp-content/uploads/2021/05/SoFi-Case-Study-Photo_20210317-7T8A2031-900x450.jpg);
+    background-size: cover;
+    border: 3px rgba(128, 128, 128, 0.534);
+
+}
+
+body {
+    margin: 20;
+}
+
+#surveyButton{
+    height: 50%;
+    margin: 0px;
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.surveyButton{
+    height: 50%;
+    margin: 0px;
+    width: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    line-height: 100px;
+    margin: 20;
+}
+
+article {
+    padding: 50px;
+    margin: 50px;
+    background: rgb(0, 174, 255);
+}
